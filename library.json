@@ -10,9 +10,7 @@
     "email": "me@williamgiles.co.nz",
     "url": "https://github.com/DCRalph"
   },
-  "dependencies": {
-    "dcr_logger": "https://github.com/dcralph/dcr_logger.git"
-  },
+  "dependencies": {},
   "build": {
     "unflags": ["-std=gnu++11", "-std=gnu++14"],
     "flags": ["-std=gnu++17"]
