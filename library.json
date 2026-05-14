@@ -1,0 +1,22 @@
+{
+  "name": "dcr_fatal_handler",
+  "version": "1.0.0",
+  "description": "ESP32 Arduino fatal handler helpers.",
+  "keywords": "esp32, arduino, terminate, fatal, watchdog",
+  "frameworks": "arduino",
+  "platforms": ["espressif32"],
+  "authors": {
+    "name": "William Giles",
+    "email": "me@williamgiles.co.nz",
+    "url": "https://github.com/DCRalph"
+  },
+  "dependencies": {
+    "dcr_logger": "https://github.com/dcralph/dcr_logger.git"
+  },
+  "build": {
+    "srcDir": ".",
+    "includeDir": ".",
+    "unflags": ["-std=gnu++11", "-std=gnu++14"],
+    "flags": ["-std=gnu++17"]
+  }
+}
