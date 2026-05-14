@@ -1,4 +1,4 @@
-#include "fatalHandler/FatalHandler.h"
+#include "FatalHandler.h"
 
 #include <exception>
 
