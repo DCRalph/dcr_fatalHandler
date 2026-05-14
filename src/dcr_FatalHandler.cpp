@@ -1,9 +1,9 @@
-#include "FatalHandler.h"
+#include "dcr_FatalHandler.h"
 
 #include <exception>
 
 #include <esp_system.h>
-#include <logger/Logger.h>
+#include <dcr_Logger.h>
 
 #undef LOG_TAG
 #define LOG_TAG "FATAL"
